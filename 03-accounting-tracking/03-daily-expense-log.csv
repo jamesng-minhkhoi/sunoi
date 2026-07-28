@@ -1,0 +1,6 @@
+Date,Category,Description,Amount,Notes
+2026-08-01,Ingredients,[example] Tea base + fruit + milk restock,300000,
+2026-08-01,Packaging,[example] Cups + seals + straws + stickers,80000,Already sourced per launch checklist
+2026-08-01,Delivery,[example] Ahamove shipper fee - direct order,15000,Direct orders only, platform delivery is inside commission
+2026-08-01,Marketing,[example] First-order voucher redemptions,0,Budget: 2-3M VND total over 4-week launch (~500-750k/week) - log real voucher/promo spend here as it happens
+2026-08-01,Platform Fees,[example] GrabFood merchant onboarding/tablet fee if any,0,Check if platform charges an onboarding or device fee
