@@ -2,11 +2,18 @@
 
 ## Setup facts
 - **Team**: 2 people, no fixed roles — but you'll want to assign at least a "drink maker" and "order/packaging handler" per shift once volume ramps, even informally, to avoid both of you doing the same step
-- **Hours**: 8am-9pm, 7 days/week — a heavy schedule for 2 people with no fixed roles. Plan: run it as-is from launch, and have a candidate helper/3rd person identified in advance so you're not scrambling if it becomes unsustainable. Watch for early burnout signals (missed platform orders, slower prep times, quality drops) as the trigger to bring help in, don't wait for a full breakdown.
+- **Public hours currently displayed**: 6:00–22:00 on the SUNOI storefront, with days of operation not stated. Treat this as the current customer-facing schedule until admin confirms otherwise; it is still a heavy schedule for 2 people with no fixed roles.
 - **Daily order cap**: 20-30 drinks/day at launch — don't accept beyond this until ops proves it can hold quality at that volume for at least a week
-- **Order channels**: GrabFood + ShopeeFood (+Baemin) orders come in via each platform's merchant app/tablet; direct orders come in via Zalo
+- **Order channels**: the public SUNOI order page currently supports delivery within the inner city or self-pickup. GrabFood, ShopeeFood, Baemin, and direct Zalo workflows remain planned/unverified in this refresh; do not treat the public site as proof of platform onboarding.
 - **Direct order payment**: cash, bank transfer, or e-wallet (Momo/ZaloPay) — no minimum order value
-- **Delivery**: platform orders are picked up and delivered by the platform's own shipper — you do NOT deliver those yourself; direct Zalo orders need you to arrange delivery (self-deliver or call an on-demand shipper like Ahamove/Grab)
+- **Delivery**: the public page says delivery is available within the inner city and that self-pickup has no shipping fee. The actual shipper, delivery fee, minimums, and handoff process need confirmation in admin/order operations. For any future platform orders, confirm the assigned shipper before handoff; direct orders still need an explicit self-delivery/on-demand-shipper decision.
+
+## Live storefront QA — 2026-08-23
+
+- Storefront map is centered at **10.840617, 106.72462**, while the footer displays `Cập nhật địa chỉ` rather than a full address.
+- The footer displays the contact value **348938820**; verify that it is complete and intended for customers before using it in SOPs or marketing.
+- The Zalo link currently resolves to a placeholder-looking `zalo.me/0000000000`; verify or replace it before launch communications.
+- `/admin` redirects to `/admin/login`; no authenticated settings, order rules, inventory, or platform connections were available to verify.
 
 ## 1. Order intake
 - [ ] **Platform orders**: accept on the merchant app/tablet immediately — most platforms auto-cancel if not accepted within a few minutes, so keep the device on and check it constantly during open hours

@@ -2,10 +2,11 @@
 
 ## Brand snapshot
 - **Name meaning**: SUN + OI — "oi" is a warm, familiar Vietnamese way to call someone dear (like "sis", "em ơi", "chị ơi"). Positioning cue: warm, personal, homemade, someone-you-know energy — not corporate.
-- **Product**: Mixed drinks menu — milk tea, coffee, fresh juice/smoothies
+- **Product**: The public order page currently shows milk tea, tea, matcha, machine coffee, milk/coffee, and toppings. Juice/smoothie availability is not confirmed in the public catalog checked on 2026-08-23.
 - **Target customer**: Nearby residents, 2-3km radius from the home kitchen
-- **Price tier**: 30k–100k VND/order — mainstream/accessible, not premium. Positioning should feel like "the neighborhood drink spot," not a specialty café.
-- **Delivery zone**: 2-3km radius from 28 Đường 10, KDC Sông Đà, Hiệp Bình, Thủ Đức — small enough that word-of-mouth in local FB/Zalo groups matters more than city-wide reach
+- **Current public price signal**: 12k–45k VND per listed base item, plus 12k–15k toppings; the older 30k–100k/order assumption and actual average order value need to be revalidated from orders.
+- **Delivery zone**: the public order page says delivery within the inner city or self-pickup. The 2–3km radius from 28 Đường 10, KDC Sông Đà, Hiệp Bình, Thủ Đức remains an internal planning assumption, not a live admin-confirmed boundary.
+- **Public hours**: 6:00–22:00 displayed on the storefront; days of operation are not stated.
 - **Budget**: revised from the original 0 VND organic-only plan — **2-3 million VND allocated for a 4-week launch voucher campaign** (~500k-750k VND/week), per Manus AI research findings (2026-07-25, see `02-manus-research-findings-2026-07-25.md`). Everything else stays organic.
 
 ## Local competitors (Google Maps, checked 2026-07-25 — NOT yet verified against live GrabFood/ShopeeFood pricing)

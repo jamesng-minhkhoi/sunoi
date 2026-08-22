@@ -5,7 +5,7 @@ Every task needed from now through the end of the 1-2 month test phase (target: 
 Status legend: ⬜ not started · 🟡 in progress · ✅ done
 
 ## 🍹 Menu & Product R&D
-- 🟡 Recipe/taste testing for all 10+ drinks (currently in progress — the actual pacing constraint on launch, more so than legal/platform items)
+- 🟡 Recipe/taste testing and live-catalog reconciliation for the 20 public items (names/prices are visible; recipes, variants, costs, and availability remain the actual launch constraint)
 - ⬜ Lock final recipe specs (base, ratios, sweetness levels, ice levels, toppings) per drink
 - ⬜ Cost each drink (ingredient cost per unit) — feeds directly into `03-accounting-tracking/02-pricing-margin-check.csv`
 - ⬜ Finalize sizes offered and price per size
@@ -16,7 +16,7 @@ Status legend: ⬜ not started · 🟡 in progress · ✅ done
 
 ## 📣 Marketing Research & Planning
 - ✅ **Grassroots/Vietnam-market-fit research** — done via Manus AI, 2026-07-25: voucher mechanics, VN promotion law (Nghị định 81/2018 + 239/2026), school/institution outreach, tactic prioritization, 4-week launch plan with budget. See `01-marketing/00-launch-plan.md` and `01-marketing/02-manus-research-findings-2026-07-25.md`.
-- 🟡 **Competitor research** — Google Maps pass done (7 shops identified with ratings), but pricing/promo data NOT yet verified against live GrabFood/ShopeeFood listings — do this before finalizing SUNOI's own pricing
+- 🟡 **Competitor research** — Google Maps pass done (7 shops identified with ratings), but pricing/promo data is still NOT verified against live GrabFood/ShopeeFood listings; the SUNOI public catalog is now a live baseline, not proof of platform pricing
 - ⬜ **Target customer research** — who actually lives/works in the 2-3km radius (residents, families, young professionals, students?), what they currently order and from where — still not directly researched (institution list from Manus is a proxy, not real customer research)
 - ⬜ **Positioning/differentiation strategy** — sharpen beyond the current brand-warmth angle using the now-real competitor list (Ngỡ Cafe's 258 reviews and Trà Sữa QQ's weak 2.4 rating are both worth a closer look)
 - ✅ Voucher/discount mechanics — 4 concrete mechanics with real numbers now in `01-marketing/00-launch-plan.md`, within the legal 50% discount cap
@@ -36,7 +36,7 @@ Status legend: ⬜ not started · 🟡 in progress · ✅ done
 - ⬜ Dry-run the full SOP end-to-end with real menu items
 - ⬜ Set 20-30 drinks/day cap on both platforms once live
 - ⬜ Ingredient backup supplier identified (primary supplier/distributor already confirmed)
-- ⬜ **Rest/backup plan** — still unresolved: who covers if one or both of you are out during the 7-day/8am-9pm schedule
+- ⬜ **Rest/backup plan** — still unresolved: who covers if one or both of you are out during the public 6:00-22:00 schedule (days not stated)
 - ⬜ Packaging stress-test (leak-proof, holds up in transit, branded sticker applied consistently)
 
 ## 📜 Legal / Platform Onboarding
@@ -66,4 +66,4 @@ Status legend: ⬜ not started · 🟡 in progress · ✅ done
 - ⬜ Go/no-go decision using the confirmed success criteria: continue as-is, add a 3rd person, move toward a licensed setup for chain expansion, or pivot menu/pricing
 
 ## Note on sequencing
-Menu/product R&D (recipe testing) is now the actual pacing bottleneck — marketing, platform listings, and photography all wait on it. Legal/platform items are no longer a blocker (informal path decided). Treat this backlog as living — check items off and add new ones as they surface, and log anything significant in `00-updates/`.
+The public ordering page removes the old "no menu provided" blocker, but recipe/variant/cost reconciliation and authenticated admin verification are now the actual pacing bottlenecks. Marketing, platform listings, and photography should use the live catalog as a baseline without assuming platform activation. Treat this backlog as living — check items off and add new ones as they surface, and log anything significant in `00-updates/`.
