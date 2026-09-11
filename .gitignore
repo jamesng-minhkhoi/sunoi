@@ -1,3 +1,7 @@
 .DS_Store
 .claude/settings.local.json
 ~$*
+
+# TikTok pipeline — raw footage and secrets never enter this repo
+assets/tiktok-raw/
+tools/tiktok/.env

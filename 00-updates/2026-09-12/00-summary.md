@@ -291,3 +291,45 @@ Conflicts were in 8 files. The local 2026-09-12 versions are three weeks newer a
 
 ### Files also updated to carry the new evidence
 `README.md`, `04-menu-product/README.md`, `05-planning/00-test-phase-roadmap.md`, `05-planning/01-open-items.md`, `01-marketing/00-marketing-plan.md`, `03-accounting-tracking/06-breakeven-storefront.md`.
+
+---
+
+# Addendum 8 — TikTok content system `[proposal]` (same day)
+
+**Request**: research TikTok content SUNOI can produce automatically with Claude Code, and set up the seeding pipeline.
+
+> **Status: `[proposal]`, explicitly not adopted.** James's words: *"i like it but i have to decide later."* The system is fully built and runnable, and is being kept as a ready option rather than switched on. **Nothing in this addendum is a decision.** The one action worth taking regardless is the Day-0 filming — 10 minutes, and the footage can't be recovered later.
+
+New: **`01-marketing/01-tiktok-content-system.md`** — a proposal doc in `01-marketing/`. It would execute one line of the marketing plan (§4 TikTok = discovery, priority 2; §7 the week-2 "ONE channel, hard" choice) rather than adding a channel.
+
+### The honest constraint, stated up front
+**Claude Code cannot film a drink.** The scarce input on TikTok is footage, not words. The system therefore automates everything *around* ~10 minutes/day of phone filming — post specs, Vietnamese captions, hashtags, real numbers from the order log, 9:16 clip prep — and stops there. Finished offline renders are explicitly avoided: the TikTok in-app editor is where trending sounds and auto-captions live, and that's where a local shop's reach comes from.
+
+### Sequencing — deliberately does not overrule §7
+The plan says week 1 is "nothing else. No TikTok system," and §13 names *running five channels at once* as the most likely failure. So filming and publishing were split:
+> **Day 0 → Day 7: shoot, don't build.** Launch-week footage is unrepeatable — a full shop on opening day cannot be re-filmed in October. Six named shots, 10 minutes, and the stills close the **drink-photography gap open since July**.
+> **Week 2 → Week 4: publish**, as §7's single channel, with a KEEP / CHANGE / KILL call on a number at week 4.
+
+### What's proposed (nothing decided)
+- **Creator account, not Business** *(if adopted)*. Business accounts are limited to the Commercial Music Library — trending sounds are unavailable and TikTok can mute or remove a business post using them. Trending-sound access is the whole reason to be on TikTok at this scale; analytics are not worth the trade at ~5 orders/day.
+- **Six repeatable formats** (F1 pha chế · F2 "30k uống gì ở Hiệp Bình?" · F3 số thật · F4 phản ứng khách · F5 quán về đêm · F6 tối nay có bóng đá), each mapped to a §2 priority. F6 is §9's match nights; F3 depends on the order log actually being filled in.
+- **The keyword list is §3's, verbatim** — no second vocabulary invented. TikTok-SEO rules: keyword spoken in the first 3 seconds, on screen in the first frame, and verbatim at the start of the caption — **but never as a hashtag.** A five-word accented tag like `#quánnướcmớiởHiệpBình` is one nobody searches and nobody else posts under, so it indexes nothing; hashtags stay short and unaccented (`#hiepbinh #thuduc #trasua #sunoi`) and only signal category and neighbourhood.
+- **Do-not-post list**, including: **no promo price or BOGO item named in any video until COGS is resolved** — a wrong price in a video keeps circulating.
+- **The Content Posting API is documented as an optional upgrade, and recommended against** — the one place this addendum does take a position. It saves one AirDrop and costs a registered developer app — **a paperwork surface against a business that decided to stay informal**, compounding exactly the way §9's broadcast-rights note does. Unaudited clients are also capped at `SELF_ONLY` visibility and 5 users/24h.
+
+### What was built
+| Path | What |
+|---|---|
+| `01-marketing/01-tiktok-content-system.md` | The system |
+| `.claude/commands/tiktok-post.md` | `/tiktok-post [F1–F6]` — reads the menu, the order log and §3, emits one ready-to-shoot spec |
+| `01-marketing/tiktok/posts/` | Generated specs, one file per post — the record the week-4 call is made from |
+| `tools/tiktok/prep-clips.sh` | Batch 9:16 crop of raw phone clips/photos. Logic tested with a stubbed binary; needs `brew install ffmpeg` |
+| `tools/tiktok/upload-draft.mjs` | The optional API path. **Untested — no credentials exist.** Reference implementation |
+| `.gitignore` | `assets/tiktok-raw/` and `tools/tiktok/.env` — footage and secrets must never enter this repo. Scoped to those two paths deliberately, rather than repo-wide `*.mp4` globs that would silently block a legitimate video later |
+
+`/tiktok-post F5` was run end-to-end; the result is `01-marketing/tiktok/posts/2026-09-12-F5.md`.
+
+### Newly surfaced
+- **SUNOI appears to have no TikTok account at all** — nothing in the repo names one. Creating it is a 2-minute job, but the handle is a permanent keyword and worth thinking about (`@sunoi.hiepbinh`).
+- The **Zalo placeholder link now blocks a second thing**: a TikTok bio link pointing at a dead direct channel wastes the traffic this whole system exists to generate.
+- The 10:00–11:00 / 15:00–16:00 posting windows are **Vietnamese F&B convention, not SUNOI data** — test them against week 1's hour-by-hour order log rather than inheriting them.

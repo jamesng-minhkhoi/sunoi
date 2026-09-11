@@ -45,11 +45,15 @@ The original home-kitchen phase was a **smoke test**; SUNOI has now taken the ne
 01-marketing/
   README.md             ← routing card
   00-marketing-plan.md  ← THE plan
+  01-tiktok-content-system.md  ← [proposal] TikTok formats, SEO rules, what /tiktok-post automates
+  tiktok/posts/         ← generated post specs, one per post
   history/YYYY-MM-DD-*.md
 02-operations/       README.md + 00-order-to-delivery-sop.md
 03-accounting-tracking/ README.md + 06-breakeven-storefront.md + the trackers
 04-menu-product/     README.md  ← still empty, longest-standing blocker
 05-planning/         README.md + 00-test-phase-roadmap.md + 01-open-items.md + history/
+tools/tiktok/        scripts behind the TikTok system (clip prep, optional API upload)
+.claude/commands/    slash commands — `/tiktok-post` generates a post spec
 ```
 
 ### Routing table — go straight to the file that answers your question
@@ -59,6 +63,7 @@ The original home-kitchen phase was a **smoke test**; SUNOI has now taken the ne
 | What phase are we in? What was decided and why? | `05-planning/00-test-phase-roadmap.md` — esp. the **decision log** |
 | What's still to do? What's blocking Day 0? | `05-planning/01-open-items.md` |
 | How do we get customers? Which tactic is worth it? | `01-marketing/00-marketing-plan.md` |
+| How do we make TikTok content, and what does Claude Code do automatically? | `01-marketing/01-tiktok-content-system.md` — `[proposal]`, not decided |
 | Are we making money? What has to be true? | `03-accounting-tracking/06-breakeven-storefront.md` |
 | What do actual sales look like? | `03-accounting-tracking/01-order-log.csv` |
 | How does an order get made and handed over? | `02-operations/00-order-to-delivery-sop.md` |

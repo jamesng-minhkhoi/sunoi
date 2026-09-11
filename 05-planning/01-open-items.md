@@ -37,6 +37,15 @@ Full plan: `01-marketing/00-marketing-plan.md`
 - [ ] Confirm packaging is genuinely waterproof for rainy-season delivery
 - [ ] Were the Aug 30–Sep 5 ShopeeFood flash-sale results ever captured? Only pre-storefront demand signal SUNOI has
 
+### TikTok `[proposal]` — see `01-marketing/01-tiktok-content-system.md`
+**The system is built but not adopted.** Only the filming item below is worth doing before the decision.
+- [ ] 🟡 **DECIDE: run the TikTok system, or not?** After Day 0, against real trading. The alternative use of the same 10 min/day is the partner program (§8) or match nights (§9), both of which produce walk-ins directly
+- [ ] **Does SUNOI have a TikTok account?** Nothing in the repo says so. Create as **Creator, not Business** (Business = no trending sounds). Handle carries the neighbourhood: `@sunoi.hiepbinh`
+- [ ] 🔴 **Film the six Day-0 shots** (§1) — **do this regardless of the decision.** Launch-week footage is unrepeatable, it costs 10 minutes, and the stills close the drink-photography gap open since July
+- [ ] `brew install ffmpeg` if using `tools/tiktok/prep-clips.sh`
+- [ ] Fixture calendar for the week — F6 match-night posts depend on it (§9)
+- [ ] Test the 10–11h / 15–16h posting windows against SUNOI's own hour-by-hour order data once week 1 is logged
+
 ## ⚙️ Operations
 - [ ] **Fill in the walk-in flow** — `02-operations/00-order-to-delivery-sop.md` §0 is a skeleton
 - [ ] Shift roles between James and Hien
