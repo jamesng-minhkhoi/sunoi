@@ -1,5 +1,10 @@
 # SUNOI — Accounting & Tracking Guide
 
+> **⚠️ 2026-09-12 — two things changed and this guide hasn't fully caught up.**
+> 1. **There are now fixed costs: rent 6,000,000đ/month for 3 months then 7,000,000đ/month (2-year contract), plus utilities assumed at 2,000,000đ/month.** That's **8,000,000đ/month, ~267,000đ/day** to clear before anything else. Every break-even rule of thumb below assumes zero fixed costs and is therefore wrong. **The real break-even model is in `06-breakeven-storefront.md` — use that.**
+> 2. **Platform commission is 30%, not 20-25%** (confirmed 2026-08-29). The rules of thumb below understate the bite.
+> Also: `01-order-log.csv` now has **Hour**, **New/Repeat**, **Customer Type**, **Acquisition Source / Partner Code** and **Event** columns, and `Walk-in` is a valid Channel. The partner-code column is what milestone payouts are reconstructed from, and the Event column tags football nights so their real value can be measured. Fill them in — the hour column in particular is what decides whether the shop should keep running ~14 hour days.
+
 Keep this dead simple for the test phase — three sheets, updated daily. Once volume/complexity grows past the test phase, move to proper accounting software; for now, spreadsheets are enough.
 
 ## Why this matters more than usual for SUNOI
@@ -7,9 +12,9 @@ You're listing on GrabFood/ShopeeFood (+Baemin) from day 1, with an average orde
 
 ## The trackers
 
-1. **`01-order-log.csv`** — every order, logged same-day, tagged by channel (Platform vs. Direct). This is your sales + revenue source of truth.
+1. **`01-order-log.csv`** — every order, logged same-day, tagged by **channel (Walk-in / Platform / Direct)** and **hour of day**. This is your sales + revenue source of truth, and right now it contains two seed rows from August and nothing else. **Nothing else in this repo can be trusted until this is being filled in daily.**
 2. **`02-pricing-margin-check.csv`** — per-drink cost breakdown vs. sell price, calculated separately for platform orders (minus commission) and direct orders (no commission).
-3. **`03-daily-expense-log.csv`** — every cash outflow (ingredients, cups/packaging, delivery/shipper fees for direct orders, marketing spend — budgeted at 2-3 million VND total across the 4-week launch window, ~500k-750k VND/week, per `01-marketing/00-launch-plan.md`; log actual voucher/promo spend here as it happens and watch for overrun against that budget).
+3. **`03-daily-expense-log.csv`** — every cash outflow (ingredients, cups/packaging, delivery/shipper fees for direct orders, marketing spend — budgeted at 2-3 million VND total across the 4-week launch window, ~500k-750k VND/week, per `01-marketing/history/2026-07-25-launch-plan-home-kitchen.md`; log actual voucher/promo spend here as it happens and watch for overrun against that budget).
 4. **`04-weekly-pnl.csv`** — rolled-up weekly P&L, split by channel.
 5. **`05-inventory-cost-tracker.xlsx`** — a full Excel workbook (multiple tabs) for everything the CSVs above don't cover: current stock levels per ingredient, cost-per-drink breakdown, supplier/reorder info, equipment & fixed assets, and an informal staff-hours log. See its own README tab for how to use it. This is the one to open regularly during setup week — it's where "how much stock do we have" and "who do we call to restock" actually live.
 
@@ -37,6 +42,11 @@ For each drink, calculate **two** margins:
 - **Platform-order margin**: `sell price - platform commission - (ingredient cost + cup/packaging cost)`
 
 Rule of thumb: at 30k-100k VND price points with ~20-25% platform commission, you need ingredient+packaging cost under ~35-40% of sell price just to stay profitable on platform orders. If a drink's ingredient cost alone is already 40%+ of its sell price, that specific drink may be a loss-leader on platform orders — fine if it drives listing traffic, but know it going in rather than discovering it in week 3.
+
+## The one number to check at close of business
+> **Did today's contribution clear ~267,000đ?**
+
+Contribution = revenue − platform commission − COGS − packaging − delivery. Everything above that line is progress; everything below it is the lease eating capital. See `06-breakeven-storefront.md` — the short version is **~11–13 walk-in/direct orders a day**, or **22–28 if it's mostly platform orders**. A 2-cup basket roughly halves both.
 
 ## What "good" looks like by end of test phase
 - Direct-channel order % growing week over week (each direct order saves ~20-25% vs. platform)

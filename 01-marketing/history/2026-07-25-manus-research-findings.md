@@ -1,6 +1,8 @@
 # Manus AI Research Findings — 2026-07-25
 
-Raw output from the Manus AI research prompt (`01-manus-research-prompt.md`), kept verbatim in Vietnamese as the source-of-record. Distilled/actionable pieces are folded into `00-launch-plan.md`; this file is the reference archive with full sourcing.
+> **📍 Research archive.** The current plan is `../00-marketing-plan.md`. Kept verbatim as the source-of-record behind the promotion-law and competitor sections.
+
+Raw output from the Manus AI research prompt (`../history/2026-07-25-manus-research-prompt.md`), kept verbatim in Vietnamese as the source-of-record. Distilled/actionable pieces are folded into `../history/2026-07-25-launch-plan-home-kitchen.md`; this file is the reference archive with full sourcing.
 
 **Note on reliability**: competitor data below is sourced from Google Maps only (not verified against live GrabFood/ShopeeFood listings) — price ranges shown as "1,000-100,000 VND" are Google Maps' generic category range, not actual per-item pricing. Treat as a starting point for who's nearby, not confirmed pricing. Legal citations reference Nghị định 81/2018/NĐ-CP and Nghị định 239/2026/NĐ-CP.
 
@@ -42,7 +44,7 @@ Ngày: 25 tháng 7 năm 2026
 ## 5. Chiến thuật & ngân sách (full detail — see distilled version in 00-launch-plan.md)
 Ngân sách đề xuất: **2-3 triệu VND cho 4 tuần đầu** (~500k-750k VND/tuần).
 
-Full tactic table, 4 concrete voucher mechanics, and week-by-week plan are distilled into `00-launch-plan.md` — see there for the actionable version.
+Full tactic table, 4 concrete voucher mechanics, and week-by-week plan are distilled into `../history/2026-07-25-launch-plan-home-kitchen.md` — see there for the actionable version.
 
 ## 6. Điều dễ bỏ lỡ (first-time VN F&B operator)
 - Quy định vệ sinh an toàn thực phẩm cơ bản

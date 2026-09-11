@@ -1,17 +1,29 @@
-# SUNOI — Operations SOP (drinks, home-kitchen test phase)
+# SUNOI — Operations SOP (drinks)
+
+> **⚠️ Written for the delivery-only home kitchen. SUNOI now runs a physical storefront with walk-in customers, and there is no walk-in flow documented below.** A skeleton walk-in path has been added in section 0; it needs James/Hien to fill in the real steps (till/payment, order marking, queue handling, dine-in vs takeaway). Everything else — platform and direct-order flow — still applies.
 
 ## Setup facts
-- **Team**: 2 people, no fixed roles — but you'll want to assign at least a "drink maker" and "order/packaging handler" per shift once volume ramps, even informally, to avoid both of you doing the same step
-- **Hours**: 8am-9pm, 7 days/week — a heavy schedule for 2 people with no fixed roles. Plan: run it as-is from launch, and have a candidate helper/3rd person identified in advance so you're not scrambling if it becomes unsustainable. Watch for early burnout signals (missed platform orders, slower prep times, quality drops) as the trigger to bring help in, don't wait for a full breakdown.
-- **Daily order cap**: 20-30 drinks/day at launch — don't accept beyond this until ops proves it can hold quality at that volume for at least a week
-- **Order channels**: GrabFood + ShopeeFood (+Baemin) orders come in via each platform's merchant app/tablet; direct orders come in via Zalo
+- **Team**: 2 people, no fixed roles — but you'll want to assign at least a "drink maker" and "order/packaging handler" per shift once volume ramps, even informally, to avoid both of you doing the same step. **A first employee is planned** once trading justifies it, which makes the gaps in this document urgent: the walk-in section below is empty and there are no drink recipe specs, and a new hire can't be trained from either. Filling them in is also the "could a 3rd person run this?" test the future-chain plan depends on.
+- **Hours**: currently running ~14 hours/day, 7 days/week `[was planned as 8am-9pm]` — a heavy schedule for 2 people with no fixed roles. **Open decision: shorten hours to match real demand once a week of hour-stamped order data exists.** A storefront also can't quietly skip a day the way a home kitchen could. Plan: run it as-is from launch, and have a candidate helper/3rd person identified in advance so you're not scrambling if it becomes unsustainable. Watch for early burnout signals (missed platform orders, slower prep times, quality drops) as the trigger to bring help in, don't wait for a full breakdown.
+- **Daily order cap**: 20-30 drinks/day `[stale — this was the home-kitchen ceiling, re-measure at the storefront]`. Current actual volume is nowhere near it (~5 orders/day on weak days), so the cap is not the binding constraint right now — demand is.
+- **Order channels**: **walk-in at the counter**; GrabFood + ShopeeFood via each platform's merchant app/tablet; direct orders via Zalo and sunoi.store
 - **Direct order payment**: cash, bank transfer, or e-wallet (Momo/ZaloPay) — no minimum order value
 - **Delivery**: platform orders are picked up and delivered by the platform's own shipper — you do NOT deliver those yourself; direct Zalo orders need you to arrange delivery (self-deliver or call an on-demand shipper like Ahamove/Grab)
+
+## 0. Walk-in orders (storefront) — ⚠️ NEEDS FILLING IN
+This path did not exist in the home-kitchen model. Fill in the real steps:
+- [ ] Greeting + taking the order at the counter (size / sweetness / ice / toppings)
+- [ ] Payment: cash / bank transfer / Momo / ZaloPay / QR at the counter — [confirm which are actually set up in-store]
+- [ ] How the order is marked and handed to whoever is making drinks (ticket? name on cup? verbal?)
+- [ ] Takeaway vs. drinking in — is there seating, and does that change packaging?
+- [ ] **Log the order** with channel = `Walk-in` and the **hour**, same as every other channel
+- [ ] Ask for a Google Maps review — walk-in customers are the easiest to ask in person, and review count is currently a real competitive gap
+- [ ] Hand over referral cards, if/when that program starts (see `01-marketing/history/2026-09-12-storefront-strategy-brief.md`)
 
 ## 1. Order intake
 - [ ] **Platform orders**: accept on the merchant app/tablet immediately — most platforms auto-cancel if not accepted within a few minutes, so keep the device on and check it constantly during open hours
 - [ ] **Direct Zalo orders**: confirm items, size/sweetness/ice level, toppings, address, phone, payment method
-- [ ] Log every order (platform AND direct) in `03-accounting-tracking/01-order-log.csv` — platforms don't give you a clean historical export by default, so this log is your real source of truth
+- [ ] Log every order (**walk-in**, platform AND direct) — with the hour it came in — in `03-accounting-tracking/01-order-log.csv` — platforms don't give you a clean historical export by default, so this log is your real source of truth
 - [ ] Send confirmation for direct orders (template below)
 
 **Confirmation message template (VN, direct order):**
@@ -53,7 +65,8 @@
 - Platform order acceptance rate (missed/auto-cancelled orders = lost revenue + hurts platform ranking): [ ]
 
 ## Legal / compliance checklist
-- [x] **Decision confirmed (2026-07-25)**: staying informal for the smoke test — attempt GrabFood/ShopeeFood onboarding with personal ID (CCCD/CMND) + bank account proof only, no hộ kinh doanh/food safety registration right now. James is knowingly accepting the risk (possible fine if inspected, or platform account suspension if docs are later requested) for the test period.
+- [ ] ⚠️ **RE-OPEN THIS (2026-09-12)**: the decision below was made for a home kitchen. A fixed, signed, publicly visible storefront is a materially different inspection risk, and a lease may itself require registration. Decide deliberately — don't let the old decision carry over by default. See `05-planning/00-test-phase-roadmap.md` open questions.
+- [x] **Decision (2026-07-25, home-kitchen era)**: staying informal for the smoke test — attempt GrabFood/ShopeeFood onboarding with personal ID (CCCD/CMND) + bank account proof only, no hộ kinh doanh/food safety registration right now. James is knowingly accepting the risk (possible fine if inspected, or platform account suspension if docs are later requested) for the test period.
 - [x] **Trigger to register, if it ever comes up**: only if a platform explicitly demands the documents mid-operation — not proactive, not tied to a revenue milestone. If triggered, registration is fast (UBND phường Hiệp Bình, ~2 working days) — noted for reference, not scheduled as a task.
 - [ ] Basic food safety practices documented (ingredient storage, expiry tracking, prep surface cleanliness) — good practice regardless of formal registration status
 - [ ] Ingredient sourcing: primary source is a supplier/distributor who delivers — confirm backup supplier per key ingredient (tea base, coffee, fruit, milk/creamer) in case of a delivery miss during peak days

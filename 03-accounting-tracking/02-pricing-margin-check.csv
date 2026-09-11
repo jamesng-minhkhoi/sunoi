@@ -1,4 +1,6 @@
-Drink Name,Ingredient Cost,Cup/Packaging Cost,Total Cost,Sell Price,Direct-Order Margin (VND),Direct-Order Margin (%),Platform Commission (25% est.),Platform-Order Margin (VND),Platform-Order Margin (%),Notes
+Drink Name,Ingredient Cost,Cup/Packaging Cost,Total Cost,Sell Price,Direct-Order Margin (VND),Direct-Order Margin (%),Platform Commission (30% confirmed 2026-08-29),Platform-Order Margin (VND),Platform-Order Margin (%),Notes
 [example] Tra sua tran chau,12000,3000,15000,45000,30000,67%,11250,18750,42%,Healthy margin on both channels
 [example] Ca phe sua da,8000,2000,10000,35000,25000,71%,8750,16250,46%,
 [example] Nuoc cam ep,10000,2500,12500,35000,22500,64%,8750,13750,39%,Fresh fruit cost varies by season - recheck monthly
+Coffee CheeseCream,,,,,,,,,,REAL ITEM - fill in. Was the hero of the 2026-08-30 ShopeeFood flash sale at flat 25000d. Cost baseline unresolved: ~9000d or ~15000d
+Egg CheeseCream,,,,,,,,,,REAL ITEM - fill in. Merchandised beside Coffee CheeseCream to drive trade-up

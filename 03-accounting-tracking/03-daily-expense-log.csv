@@ -1,6 +1,8 @@
 Date,Category,Description,Amount,Notes
 2026-08-01,Ingredients,[example] Tea base + fruit + milk restock,300000,
 2026-08-01,Packaging,[example] Cups + seals + straws + stickers,80000,Already sourced per launch checklist
-2026-08-01,Delivery,[example] Ahamove shipper fee - direct order,15000,Direct orders only, platform delivery is inside commission
+2026-08-01,Delivery,[example] Ahamove shipper fee - direct order,15000,"Direct orders only, platform delivery is inside commission"
 2026-08-01,Marketing,[example] First-order voucher redemptions,0,Budget: 2-3M VND total over 4-week launch (~500-750k/week) - log real voucher/promo spend here as it happens
 2026-08-01,Platform Fees,[example] GrabFood merchant onboarding/tablet fee if any,0,Check if platform charges an onboarding or device fee
+2026-09-14,Rent,Storefront rent - month 1 of 3 at the reduced rate,6000000,"2-year contract. 6,000,000/mo for months 1-3 then 7,000,000/mo. Log every month - this is the single biggest recurring cost. See 06-breakeven-storefront.md"
+,Utilities,Electricity / water / wifi / waste - FILL IN,2000000,"ASSUMPTION set 2026-09-12, not a real bill. Electricity / water / wifi / waste. Replace with actuals when the first bills arrive - a 1,000,000 error moves break-even by ~1.5 cups/day."

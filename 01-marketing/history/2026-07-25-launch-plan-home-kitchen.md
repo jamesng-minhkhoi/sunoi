@@ -1,14 +1,24 @@
 # SUNOI — Marketing Launch Plan
 
+> **📍 Superseded by `../00-marketing-plan.md` — read that first.** This file is kept for the full Vietnam promotion-law detail, the July competitor table, the nearby-institutions list, and the record of campaigns actually run. It was written for the delivery-only home-kitchen phase.
+
+> **⚠️ Written for the delivery-only home-kitchen phase (2026-07-25). SUNOI now operates a physical storefront in Hiệp Bình (former ZEN CAFE).** Most of the channel thinking below still applies, but anything anchored to the home-kitchen address or to "delivery-only" is superseded. Storefront-era ideas under consideration live in `../history/2026-09-12-storefront-strategy-brief.md` (proposals, not decisions).
+>
+> **SUNOI relaunches at the new site on 2026-09-14 (Day 0).** The scoped 48-hour prep list — and what is deliberately *not* being done this week — is in the **RELAUNCH** section of `05-planning/00-test-phase-roadmap.md`. Pre-relaunch baseline was ~5 orders/day; the break-even line is ~11–13 walk-in/direct orders/day.
+
 ## Brand snapshot
 - **Name meaning**: SUN + OI — "oi" is a warm, familiar Vietnamese way to call someone dear (like "sis", "em ơi", "chị ơi"). Positioning cue: warm, personal, homemade, someone-you-know energy — not corporate.
 - **Product**: Mixed drinks menu — milk tea, coffee, fresh juice/smoothies
-- **Target customer**: Nearby residents, 2-3km radius from the home kitchen
+- **Target customer**: Nearby residents, ~2-3km catchment around the storefront — plus walk-in/passing traffic, which did not exist in the home-kitchen model
 - **Price tier**: 30k–100k VND/order — mainstream/accessible, not premium. Positioning should feel like "the neighborhood drink spot," not a specialty café.
-- **Delivery zone**: 2-3km radius from 28 Đường 10, KDC Sông Đà, Hiệp Bình, Thủ Đức — small enough that word-of-mouth in local FB/Zalo groups matters more than city-wide reach
-- **Budget**: revised from the original 0 VND organic-only plan — **2-3 million VND allocated for a 4-week launch voucher campaign** (~500k-750k VND/week), per Manus AI research findings (2026-07-25, see `02-manus-research-findings-2026-07-25.md`). Everything else stays organic.
+- **Delivery zone**: ~2-3km radius from the storefront at `RPPH+687, Hiệp Bình, Thủ Đức` (https://maps.app.goo.gl/Ku8Xo88MRpvjrCAE7) — small enough that word-of-mouth in local FB/Zalo groups matters more than city-wide reach. `[superseded 2026-09-12: previously anchored to the home kitchen at 28 Đường 10, KDC Sông Đà]`
+- **Storefront as a channel (new)**: the shop's street presence — signage, night lighting, visible drinks, easy stopping/parking — is now an acquisition channel in its own right, and did not exist in the delivery-only plan. See Proposal F in `../history/2026-09-12-storefront-strategy-brief.md`.
+- **Fixed costs (new)**: rent 6,000,000đ/month for 3 months then 7,000,000đ/month (2-year contract) + utilities assumed 2,000,000đ/month = **~267,000đ/day** before any marketing spend. Every promo below competes with that number; a walk-in cup is worth ~2× a platform cup; and a second item in the basket is worth as much as a whole extra order. See `03-accounting-tracking/06-breakeven-storefront.md`.
+- **Budget**: revised from the original 0 VND organic-only plan — **2-3 million VND allocated for a 4-week launch voucher campaign** (~500k-750k VND/week), per Manus AI research findings (2026-07-25, see `../history/2026-07-25-manus-research-findings.md`). Everything else stays organic.
 
-## Local competitors (Google Maps, checked 2026-07-25 — NOT yet verified against live GrabFood/ShopeeFood pricing)
+## Local competitors
+
+### Home-kitchen-catchment competitors (Google Maps, checked 2026-07-25 — NOT yet verified against live GrabFood/ShopeeFood pricing)
 | Shop | Address | Rating |
 |---|---|---|
 | Tiệm Nhà Ori (juice/smoothie/fruit tea) | 1D Đ. Số 49, Hiệp Bình Chánh | 4.8 (32) |
@@ -20,6 +30,22 @@
 | Trà Sữa Suby Suby | 209 Đ. Hiệp Bình, Hiệp Bình Chánh | 4.8 (71) |
 
 **Caveat**: Google Maps price ranges are generic ("1,000-100,000 VND" category buckets), not real per-item pricing — still needs a direct GrabFood/ShopeeFood check before it drives a pricing decision. Trà Sữa QQ's weak 2.4 rating is worth a closer look (possible quality gap SUNOI can exploit) once verified.
+
+### Storefront-catchment competitors `[unverified — from a ChatGPT session, 2026-09-12, not checked against Google Maps or the delivery apps]`
+
+Different address, different catchment — this is an *addition* to the list above, not a correction of it. None of these overlap with the 2026-07-25 list, which suggests the storefront sits in a different micro-market than the home kitchen did. **Verify before using.**
+
+| Shop | Note |
+|---|---|
+| Trà Sữa Thơm - Hiệp Bình | |
+| Trà Sữa Guo Cha | |
+| Trà Sữa SunCha | Name collision risk with SUNOI — worth checking |
+| TRÀ SỮA TuTiMi | 77A-77B Hiệp Bình — reportedly ~380 Google reviews |
+| Tiệm cà phê Phố Cổ | reportedly ~436 Google reviews |
+
+**What local reviews suggest customers care about** `[unverified]`: delivery, generous portions, toppings, sensible sweetness, clean packaging, fair price, deals, snacks/light food, convenience. One nearby listing had discussion around a 9k deal. The questions a local customer actually asks are closer to *"Có gì ngon? Bao nhiêu tiền? Có deal không? Có topping không? Có ship không? Gần nhà không? Có đáng thử không?"* than to anything about brand values.
+
+**Implication**: with competitors at 380–436 reviews and SUNOI at roughly zero, review count is a real barrier to being chosen. Generating early social proof is a priority, not a nice-to-have.
 
 **Implication for positioning**: several competitors already have strong review counts (Ngỡ Cafe at 258, Rau Má Mix at 164) — platform discovery alone won't differentiate SUNOI against established players. The brand-warmth angle (SUNOI/"oi") and direct-Zalo relationship-building matter more than winning purely on price or platform visibility.
 
@@ -61,6 +87,25 @@ Since it's just two of you doing marketing + drinks + delivery admin, don't run 
 | 3 | Expand & community | 750k VND | Sampling day at KDC Sông Đà (~500-800k VND per 100 cups — cost this separately if run beyond the weekly budget); check-in-for-discount social mechanic; continue influencer follow-through |
 | 4 | School-year prep & optimize | 750k VND | Student/office "back to school/work" combo offers via online channels (not on-site); optimize Zalo group-buy mechanics; review what worked, cut what didn't |
 
+## Campaigns actually run (append as they happen — this is the real record, not the plan)
+
+| Dates | Channel | Campaign | Config | Result |
+|---|---|---|---|---|
+| 2026-08-30 → 2026-09-05 | ShopeeFood | **"Đồng giá 25K — Cà phê kem phô mai"** flash sale | Flat 25,000đ on Coffee CheeseCream; **50,000đ minimum order**; max 1 promo item/order; max 1/customer/day; **8 promo orders/day cap**; Egg CheeseCream merchandised directly beside it to drive trade-up | **Not recorded.** Orders, redemptions and revenue for this week were never logged. |
+
+**Why it was configured that way** (2026-08-29 analysis — worth keeping, the logic is reusable):
+- The 50,000đ minimum-order gate forces a second, full-price item into the basket. With a ~15,000đ cost/cup and 30% commission, any qualifying 2-item basket nets ~35,000đ against ~30,000đ cost — a structural profit floor that holds *regardless of discount depth*.
+- That makes discount depth a free conversion lever rather than a risk: going deeper costs ~4,000đ of contribution per order but substantially improves listing appeal.
+- **Capacity, not budget, was the binding constraint.** At the then-current 20–30 drinks/day ceiling, 8 promo orders/day consumed 16 drinks and left a workable non-promo buffer; 10–12/day risked hitting the ceiling.
+- Per-order limit of 1 (not 2) maximised AOV and forced a mixed basket.
+- Weekend slots were chosen deliberately — higher delivery demand.
+
+**Open items left over from that campaign:**
+- [ ] Whether ShopeeFood evaluates the 50,000đ gate **pre- or post-discount** was never confirmed with merchant support. This materially changes the economics and is still unknown.
+- [ ] A 60,000đ free-shipping threshold was recommended as an upsell rung above the 50,000đ gate — never configured.
+- [ ] Campaign results were never captured. **If the data is still retrievable in the ShopeeFood merchant dashboard, pull it** — it's the only real demand signal SUNOI has from before the storefront opened.
+- [ ] COGS baseline is unresolved: two figures are on record (~9,000đ "to be safe", ~15,000đ used in the model). Every discount decision depends on this.
+
 ## Other tactics researched (medium priority, layer in as bandwidth allows)
 - **Nano/micro-influencer collabs**: 200k-1M VND per post/video + free product; many small HCMC KOCs (content creators) trade a free drink for a post — worth testing 1-2 in week 2-3
 - **Check-in-for-discount**: low cost, encourages social sharing of the SUNOI experience
@@ -78,6 +123,9 @@ Since it's just two of you doing marketing + drinks + delivery admin, don't run 
 | Sat–Sun | Order days — respond fast, repost any customer photos/reviews | All |
 
 ## How to order
+**Walk-in (storefront)**: customer sees the shop from the street / finds it on Google Maps / saw it in local content → orders at the counter → pays cash/QR/e-wallet → drink made and handed over. Ask for a Google Maps review in person — this is the cheapest social proof available and SUNOI is starting from near-zero reviews against competitors with 380+. See `02-operations/00-order-to-delivery-sop.md` §0.
+
+**Delivery / direct**:
 1. Customer finds SUNOI via GrabFood/ShopeeFood listing or a local FB post/Zalo broadcast →
 2. Orders via the platform app, OR direct via Zalo (cheaper for repeat customers — no commission) →
 3. If direct: confirm drink, size/sweetness/ice level, address, payment method →
@@ -86,11 +134,15 @@ Since it's just two of you doing marketing + drinks + delivery admin, don't run 
 6. After delivery: ask for a platform review (platform orders) or a photo/testimonial (direct orders)
 
 ## Metrics to track weekly (see also `03-accounting-tracking/`)
-- Orders/week, split by channel (platform vs. direct Zalo/FB)
-- Repeat customer % (direct channel especially — this is what you're trying to grow, since it avoids commission)
-- Most-ordered drink, platform rating/review count
-- % of days hitting the 20-30 drink/day cap (signal to raise capacity or slow marketing push)
-- Voucher redemption rate and cost-per-new-customer, against the 2-3M VND launch budget
+- **Orders/day and orders/week, split three ways: walk-in / platform / direct** — the walk-in split is new and is the whole point of having a storefront
+- **Orders by hour of day** — this is currently the single highest-value number SUNOI isn't collecting. It decides whether ~14 hour days make sense.
+- **New vs. repeat customers** — at ~5 orders/day the question isn't margin, it's whether anyone comes back
+- Average order value — never yet measured at SUNOI, and several plans assume ~50k without evidence
+- Repeat customer % on the direct channel especially (avoids the 30% commission)
+- Most-ordered drink; **Google Maps review count** (competitors are at 380+, SUNOI is near zero — this is a real barrier to being chosen)
+- Revenue vs. **daily fixed costs** (rent/utilities) — a storefront has a nut to clear every day that the home kitchen didn't
+- Voucher redemption rate and cost-per-new-customer
+- `[stale]` % of days hitting the 20-30 drink/day cap — that was a home-kitchen ceiling and demand, not capacity, is the current constraint
 
 ## What a first-time VN F&B operator often misses (per Manus research)
 - Basic food safety practices, even at small/informal scale

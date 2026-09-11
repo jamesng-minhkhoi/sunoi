@@ -1,5 +1,7 @@
 # Manus AI Research Prompt — SUNOI Grassroots Marketing Strategy
 
+> **📍 Reference.** The current plan is `../00-marketing-plan.md`. This is a reusable deep-research prompt, kept for re-running research later — its business context describes the old home-kitchen phase.
+
 Copy-paste the block below into Manus AI (or similar deep-research tool). Update the `[bracketed]` items once the menu is finalized. Competitor data is intentionally NOT hardcoded here — an earlier version of this prompt included a competitor list from a quick web search that turned out to be unreliable/outdated, so Manus is asked to research it live instead (see Business context below).
 
 ---
@@ -55,4 +57,4 @@ Where you're uncertain or a claim depends on fast-changing information (competit
 
 ---
 
-*Once this comes back from Manus, bring the results back here and we'll fold the concrete ideas into `01-marketing/00-launch-plan.md` and the backlog in `05-planning/02-full-backlog-to-launch.md`.*
+*Once this comes back from Manus, bring the results back here and we'll fold the concrete ideas into `01-marketing/history/2026-07-25-launch-plan-home-kitchen.md` and the backlog in `05-planning/history/2026-07-25-full-backlog-to-launch.md`.*
