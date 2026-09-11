@@ -252,3 +252,42 @@ Also: **paths inside dated summaries were deliberately left unrewritten.** An up
 
 ### Verification
 All markdown cross-references re-checked against the new layout (bare filenames that became ambiguous after the move were made explicit) — **all links resolve**. All four CSVs re-checked for column alignment — clean.
+
+## Addendum 7 — merged the 2026-08-23 live-storefront refresh from the remote
+
+Pushing revealed a commit on `origin/main` that wasn't in the local clone: **`docs: refresh SUNOI context from live storefront` (2026-08-23)**. Merged rather than overwritten. It carried real evidence that changes the analysis.
+
+### What it brought
+- **The actual menu.** 20 catalog entries read from sunoi.store/order: **15 drinks 22,000–45,000₫ + 5 toppings 12,000–15,000₫** across Trà Sữa, Trà, Matcha, Cafe pha máy, Sữa. This closes the repo's longest-standing blocker, open since 2026-07-25.
+- **Public hours 6:00–22:00** displayed on the storefront (days not stated) — corroborates the ~14h/day figure and sharpens it.
+- **Ordering**: delivery within the inner city, or self-pickup with no shipping fee.
+- **Placeholder contact data**: the footer showed `Cập nhật địa chỉ`, coordinates 10.840617/106.72462, contact `348938820`, and a **placeholder Zalo link `zalo.me/0000000000`**.
+- **Platform onboarding was unconfirmed** from public evidence as of 2026-08-23.
+
+### The finding that matters most
+The break-even model was built on **35k / 39k / 45k** list prices. The real menu is **22k–45k, with five of fifteen drinks at 25,000₫ or below.** At the ~15,000đ COGS figure and 30% commission:
+
+| List price | Platform contribution |
+|---|---:|
+| 45.000₫ | +16.500₫ |
+| 39.000₫ | +12.300₫ |
+| 35.000₫ | +9.500₫ |
+| 29.000₫ | +5.300₫ |
+| 25.000₫ | +2.500₫ |
+| **22.000₫** | **−600₫** |
+
+> **If COGS really is ~15,000đ, the cheaper half of the menu does not work on delivery platforms at all** — it breaks even or loses money before any discount is applied. If it's ~9,000đ, everything is viable.
+
+That makes the COGS question bigger than the opening promo: it decides **which half of the menu should be on platforms at all.** Two mitigations are already available — toppings at 12–15,000₫ are a built-in basket lever that lifts a 25,000₫ order into safe territory, and partner cashback is already restricted to walk-in/direct, which at the cheap end is the difference between profitable acquisition and paying for losses.
+
+It also changes the opening offer: **pick the BOGO drink from the top of the range, not the bottom.** Giving away a 25,000₫ drink costs proportionally far more than a 39–45,000₫ one. Sane candidates: Trà Sữa Trân Châu Đường Đen (39k), Trà Đào Mật Ong (39k), Matcha Latte / Matcha Latte Đậu Đỏ (40–45k).
+
+### Two new Day-0 blockers
+1. 🔴 **The Zalo link on sunoi.store is a placeholder** (`zalo.me/0000000000`), and the address field says `Cập nhật địa chỉ`. Zalo is the direct channel this entire marketing plan drives traffic toward — the one worth 2× a platform order. A dead link wastes all of it.
+2. 🔴 **Platform onboarding is contradictory.** The 2026-08-23 public check couldn't confirm GrabFood/ShopeeFood/Baemin onboarding, yet the 2026-08-29 session configured a live ShopeeFood flash sale. Both can't be right, and it changes what "update the platform address" even means.
+
+### How the merge was resolved
+Conflicts were in 8 files. The local 2026-09-12 versions are three weeks newer and reflect the storefront pivot, so they were kept as the base — but every fact the 2026-08-23 commit carried was absorbed into them rather than discarded. `04-menu-product/README.md` was rebuilt around the remote's catalog table. The 2026-08-23 row was slotted into `INDEX.md` chronologically. Nothing was force-pushed and no remote work was lost.
+
+### Files also updated to carry the new evidence
+`README.md`, `04-menu-product/README.md`, `05-planning/00-test-phase-roadmap.md`, `05-planning/01-open-items.md`, `01-marketing/00-marketing-plan.md`, `03-accounting-tracking/06-breakeven-storefront.md`.

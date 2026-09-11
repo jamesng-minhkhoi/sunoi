@@ -9,9 +9,16 @@ The live carry-forward list. Rescued 2026-09-12 from the July pre-launch backlog
 - [ ] **GrabFood / ShopeeFood merchant address** — is it updated to the storefront, and did it trigger re-verification? Delivery could be dark on Day 0.
 - [ ] **Google Maps listing live at the new address** — pin, photos, hours, phone, category
 
+## 🔴 Also before Day 0
+- [ ] **Fix the Zalo link and the address on sunoi.store.** As of 2026-08-23 the footer showed a placeholder `zalo.me/0000000000` and `Cập nhật địa chỉ`. Zalo is the direct channel the whole marketing plan drives toward
+- [ ] **Confirm whether GrabFood / ShopeeFood / Baemin are actually onboarded.** The 2026-08-23 public check couldn't confirm any; the 2026-08-29 session ran a ShopeeFood flash sale. These can't both be right
+
 ## 🍹 Menu & product
-- [ ] **Full drink list with names, sizes and prices** — the #1 blocker since July, still not in the repo. Blocks pricing, platform listings, recipe specs
-- [ ] Cost each drink → `03-accounting-tracking/02-pricing-margin-check.csv`
+- [x] ~~Full drink list~~ — **captured 2026-08-23**: 15 drinks 22,000–45,000₫ + 5 toppings, in `04-menu-product/README.md`
+- [ ] **Per-item ingredient cost** — the catalog spans 22k–45k; at ~15k COGS the cheaper half is thin-to-negative on platform orders
+- [ ] Extract the "từ" size/variant ladder (Phê Xỉu, Đen Đá, Phê Sữa)
+- [ ] Reconcile Coffee CheeseCream / Egg CheeseCream — hero items of the Aug 30 flash sale, but neither is in the live catalog under those names
+- [ ] Fill `03-accounting-tracking/02-pricing-margin-check.csv` from the live catalog + real costs
 - [ ] Lock recipe specs per drink (base, ratios, sweetness, ice, toppings) → needed for `02-operations/00-order-to-delivery-sop.md`, and a new hire can't be trained without it
 - [ ] Topping/customization options and upcharges
 - [ ] **Drink photography** — flagged missing since July; directly affects delivery-app conversion

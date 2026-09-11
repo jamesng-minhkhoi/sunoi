@@ -8,7 +8,14 @@
 - **Daily order cap**: 20-30 drinks/day `[stale — this was the home-kitchen ceiling, re-measure at the storefront]`. Current actual volume is nowhere near it (~5 orders/day on weak days), so the cap is not the binding constraint right now — demand is.
 - **Order channels**: **walk-in at the counter**; GrabFood + ShopeeFood via each platform's merchant app/tablet; direct orders via Zalo and sunoi.store
 - **Direct order payment**: cash, bank transfer, or e-wallet (Momo/ZaloPay) — no minimum order value
-- **Delivery**: platform orders are picked up and delivered by the platform's own shipper — you do NOT deliver those yourself; direct Zalo orders need you to arrange delivery (self-deliver or call an on-demand shipper like Ahamove/Grab)
+- **Delivery**: the public page says delivery is available within the inner city and that self-pickup has no shipping fee. The actual shipper, delivery fee, minimums, and handoff process need confirmation in admin/order operations. For any future platform orders, confirm the assigned shipper before handoff; direct orders still need an explicit self-delivery/on-demand-shipper decision.
+
+## Live storefront QA — 2026-08-23
+
+- Storefront map is centered at **10.840617, 106.72462**, while the footer displays `Cập nhật địa chỉ` rather than a full address.
+- The footer displays the contact value **348938820**; verify that it is complete and intended for customers before using it in SOPs or marketing.
+- The Zalo link currently resolves to a placeholder-looking `zalo.me/0000000000`; verify or replace it before launch communications.
+- `/admin` redirects to `/admin/login`; no authenticated settings, order rules, inventory, or platform connections were available to verify.
 
 ## 0. Walk-in orders (storefront) — ⚠️ NEEDS FILLING IN
 This path did not exist in the home-kitchen model. Fill in the real steps:

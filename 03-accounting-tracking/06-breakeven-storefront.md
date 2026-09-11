@@ -111,6 +111,27 @@ Condition 1 without condition 2 means there's no extra revenue to capture yet. C
 - [ ] ⚠️ **The informal-operation decision collides with this.** SUNOI has no hộ kinh doanh registration. Taking on an employee means a labour relationship, and depending on contract type that brings registration, insurance and personal-income-tax withholding obligations. **Hiring is arguably a stronger trigger to formalise than anything in the original July decision** — that decision was made for a 2-person home kitchen with no staff and no premises. Decide deliberately; see the roadmap's open questions.
 - [ ] **Who trains them, and from what?** `02-operations/00-order-to-delivery-sop.md` is still written for delivery-only and has an empty walk-in section and no drink recipe specs. A new hire needs both. This is also exactly the "could a 3rd person follow these SOPs?" test the chain ambition depends on — see the roadmap's bigger-picture section.
 
+## ⚠️ The real menu is cheaper than these tables assume
+
+The tables above use 35k / 39k / 45k list prices. The **actual live catalog** (checked 2026-08-23, `04-menu-product/README.md`) is 15 drinks from **22,000₫ to 45,000₫**, with **five at 25,000₫ or below**.
+
+Platform contribution at ~15,000đ COGS and 30% commission:
+
+| List price | Platform contribution |
+|---|---:|
+| 45.000₫ | +16.500₫ |
+| 39.000₫ | +12.300₫ |
+| 35.000₫ | +9.500₫ |
+| 29.000₫ | +5.300₫ |
+| 25.000₫ | +2.500₫ |
+| **22.000₫** | **−600₫** |
+
+**If COGS really is ~15,000đ, the cheaper half of the menu does not work on delivery platforms** — it either breaks even or loses money before any discount. If COGS is ~9,000đ, all of it is viable. This is a second, larger reason the COGS question is urgent: it decides not just the opening promo but which half of the menu should be on platforms at all.
+
+Two mitigations already available:
+- **Toppings at 12–15,000₫** are the cheapest basket lever SUNOI has, and they're already built into the ordering page. "Thêm topping" lifts a 25,000₫ order into comfortable territory without adding anything to the menu.
+- **Partner cashback is already restricted to walk-in/direct.** At the cheap end of this menu, that restriction is the difference between profitable acquisition and paying for losses.
+
 ## Load-bearing unknowns
 - [ ] **COGS: ~9,000đ or ~15,000đ?** Both on record from the same 2026-08-29 session. The gap moves break-even by ~30%. **Urgent — the relaunch promo decision depends on it.**
 - [ ] **Real utilities** — 2,000,000đ/month is a placeholder until the first bills land

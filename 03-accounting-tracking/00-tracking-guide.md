@@ -8,7 +8,7 @@
 Keep this dead simple for the test phase — three sheets, updated daily. Once volume/complexity grows past the test phase, move to proper accounting software; for now, spreadsheets are enough.
 
 ## Why this matters more than usual for SUNOI
-You're listing on GrabFood/ShopeeFood (+Baemin) from day 1, with an average order value of only 30k-100k VND. Platform commission (typically ~20-25%, sometimes higher with ad/promo add-ons) eats a much bigger share of a small order than a big one — a 30k drink loses ~7k+ to commission alone, before ingredient cost. **At this price point, tracking platform vs. direct-channel margin separately is not optional — it's the difference between profitable and losing money on every platform order.**
+The public order page checked on 2026-08-23 shows base items from 12k to 45k VND and toppings from 12k to 15k; the actual average order value and platform activation status are not verified. Platform commission (typically ~20-25%, sometimes higher with ad/promo add-ons) eats a much bigger share of a small order than a big one. **Until real order data replaces the older 30k-100k planning assumption, tracking platform vs. direct-channel margin separately is not optional.**
 
 ## The trackers
 
@@ -41,7 +41,7 @@ For each drink, calculate **two** margins:
 - **Direct-order margin**: `sell price - (ingredient cost + cup/packaging cost)`
 - **Platform-order margin**: `sell price - platform commission - (ingredient cost + cup/packaging cost)`
 
-Rule of thumb: at 30k-100k VND price points with ~20-25% platform commission, you need ingredient+packaging cost under ~35-40% of sell price just to stay profitable on platform orders. If a drink's ingredient cost alone is already 40%+ of its sell price, that specific drink may be a loss-leader on platform orders — fine if it drives listing traffic, but know it going in rather than discovering it in week 3.
+Do not use the old 30k-100k range as a substitute for current unit economics. Calculate each live variant at its actual 12k-45k base price (plus toppings) and apply each platform's actual fee/promo deductions once onboarding is confirmed. If ingredient plus packaging cost is already 40%+ of a listed price, that item may be a loss-leader on platform orders — know it before publishing promotions.
 
 ## The one number to check at close of business
 > **Did today's contribution clear ~267,000đ?**

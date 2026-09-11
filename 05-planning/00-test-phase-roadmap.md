@@ -16,12 +16,13 @@ The home-kitchen phase was a smoke test for a much larger goal: James and Hien p
 - **Home kitchen at 28 Đường 10, KDC Sông Đà, Hiệp Bình** — `[superseded 2026-09-12]`, was the operating base during the delivery-only test phase
 - **Channels**: walk-in + GrabFood + ShopeeFood + direct (Zalo, sunoi.store)
 - **Catchment**: ~2–3km around the store — the business should NOT be judged on walk-ins alone
-- Drinks menu (milk tea, coffee, juice/smoothie, speciality), ~30k–100k VND/order
+- **Menu**: live public catalog captured 2026-08-23 — 15 drinks **22,000–45,000₫** + 5 toppings 12,000–15,000₫ across Trà Sữa / Trà / Matcha / Cafe pha máy / Sữa. See `04-menu-product/README.md`. The old "~30k–100k VND/order" figure was a planning assumption; real AOV has never been measured
+- **Ordering page**: sunoi.store/order — delivery within the inner city, or self-pickup with no shipping fee
 - **Relaunch: 2026-09-14 (Day 0)**
 - **Fixed costs: rent 6,000,000đ/month for months 1–3 then 7,000,000đ/month (2-year contract, 165,000,000đ committed), plus utilities assumed 2,000,000đ/month = 8,000,000đ/month, ~267,000đ/day.** See `03-accounting-tracking/06-breakeven-storefront.md`.
 - **Break-even: ~11–13 walk-in/direct orders/day** in the first 3 months — but **22–28 if orders come mostly via platforms**, which is at or beyond the old capacity ceiling. Channel mix and basket size, not raw order count, decide whether this works.
 - **Pre-relaunch baseline**: ~5 orders/day, ~14 hours open, during the quiet stretch around the move
-- **Hours**: ~14 hours/day, 7 days/week for 2 people — unsustainable, and not obviously matched to when demand actually exists
+- **Hours**: the public storefront displays **6:00–22:00** (checked 2026-08-23; days of operation not stated); ~14 hours/day is what's actually being run. Either way it's unsustainable for 2 people and not obviously matched to when demand exists
 - Starting capital: 15–30 million VND was the home-kitchen budget. **Note this is smaller than a single year of rent** — the capital position needs restating now that fit-out and deposit have been paid.
 - Logo + packaging already sourced
 
@@ -138,6 +139,9 @@ Target launch was ~2026-08-08; soft launch happened ~2026-08-01 (2 seed orders l
 
 ## Open questions
 - [x] ~~Lease terms / monthly rent~~ — answered 2026-09-12: 6M/mo for 3 months, then 7M/mo, 2-year contract. See `03-accounting-tracking/06-breakeven-storefront.md`.
+- [ ] 🔴 **Verify the public-facing contact details before Day 0.** As of the 2026-08-23 site check, the sunoi.store footer showed `Cập nhật địa chỉ` (a placeholder), coordinates 10.840617 / 106.72462, contact `348938820`, and a **placeholder Zalo link `zalo.me/0000000000`**. Relaunching with a dead Zalo link wastes every order the marketing plan drives to the direct channel — which is the channel worth 2× a platform order.
+- [ ] **Are GrabFood / ShopeeFood / Baemin actually onboarded?** The 2026-08-23 check could not confirm any platform onboarding from public evidence, yet the 2026-08-29 session configured a live ShopeeFood flash sale. Reconcile — it changes what "update the platform address" even means.
+- [ ] **Per-item ingredient cost.** The live catalog spans 22,000–45,000₫; cost almost certainly varies a lot across it, and at ~15,000đ COGS the cheaper half is thin-to-negative on platform orders. See `04-menu-product/README.md`.
 - [ ] **Real utilities** — **2,000,000đ/month is a working assumption** (decided 2026-09-12, no bills yet). Replace with actuals when they arrive; a 1M error moves break-even by ~1.5 cups/day
 - [ ] **Current capital position** after deposit and fit-out — the original 15–30M figure predates both
 - [ ] **Legal status now that there's a fixed premises.** The 2026-07-25 "stay informal" decision was made for a home kitchen. A visible storefront with a sign is a different risk profile — inspection is plausible, and a landlord/lease may itself require registration. Registration at UBND phường Hiệp Bình is ~2 working days. **Recommend re-deciding deliberately rather than letting the old decision carry over by default.**

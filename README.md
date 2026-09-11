@@ -18,16 +18,18 @@ The original home-kitchen phase was a **smoke test**; SUNOI has now taken the ne
 - **Catchment**: ~2–3km around the store
 - **Fixed costs**: rent 6,000,000đ/month for 3 months then 7,000,000đ/month (**2-year contract**, 165M committed) + utilities assumed 2,000,000đ/month = **8,000,000đ/month, ~267,000đ/day** to clear. See `03-accounting-tracking/06-breakeven-storefront.md`
 - **Break-even**: roughly **11–13 walk-in/direct orders a day** — but **22–28 if they're mostly platform orders**, since a platform cup is worth about half a walk-in cup. A 2-cup basket halves both figures
-- **Price point**: ~30k–100k VND/order; individual drinks may be lower
+- **Menu & prices** (live public catalog, checked 2026-08-23 at sunoi.store/order): **15 drinks 22,000–45,000₫ + 5 toppings 12,000–15,000₫** — see `04-menu-product/README.md`. Note the cheaper half of the menu is thin-to-negative on platform orders at the ~15k COGS figure
+- **Ordering page**: sunoi.store/order offers delivery within the inner city or **self-pickup with no shipping fee**
+- **Price point**: ~30k–100k VND/order was the planning assumption; real AOV has never been measured
 - **Capacity**: ~20–30 drinks/day was the home-kitchen ceiling — **needs re-measuring for the storefront**, it is almost certainly higher now
 - **Relaunch date**: **2026-09-14** at the new storefront = Day 0
 - **Pre-relaunch baseline**: ~5 orders/day during the quiet stretch around the move. The goal from Day 0 is 5 → 10 → 20 → 30 orders/day, not a revenue moonshot
-- **Hours**: running ~14 hours/day. Flagged as a problem — see the hours decision in `05-planning/00-test-phase-roadmap.md`
+- **Hours**: the public storefront displays **6:00–22:00** (16 hours; days not stated) and ~14 hours/day is what's actually being run. Flagged as a problem — see the hours decision in `05-planning/00-test-phase-roadmap.md`
 - **Branding**: logo + cups/packaging already sourced ✅
 - **Legal**: stayed informal during the home-kitchen smoke test. **A physical storefront materially changes this risk** — a visible, fixed premises is far more likely to be inspected than a home kitchen. Re-open this decision; see roadmap.
 
 ## Status
-- Menu: 🟡 partial — known items (Coffee CheeseCream, Egg CheeseCream) are recorded in `04-menu-product/`, full drink list still not in the repo
+- Menu: 🟢 **live catalog captured** — 20 items in `04-menu-product/README.md`. Recipes, sizes, variants and per-item costs still open
 - Marketing: 🔴 **relaunch is 2026-09-14** — the consolidated plan is `01-marketing/00-marketing-plan.md` (single entry point). Ops-side launch prep is in `05-planning/00-test-phase-roadmap.md`
 - Operations: 🟡 SOP still describes delivery-only flow, **no walk-in path documented** — see `02-operations/`
 - Accounting/tracking: 🟡 break-even model now exists (`03-accounting-tracking/06-breakeven-storefront.md`), but real order data still isn't being logged — see `03-accounting-tracking/`

@@ -14,6 +14,7 @@
 | Baseline | ~5 orders/day during the quiet weeks around the move |
 | Daily fixed cost | **~267,000đ/day** (8M/month: 6M rent + 2M assumed utilities), rising to ~300,000đ/day from month 4 |
 | **Break-even** | **~11–13 walk-in/direct orders/day** — or 22–28 if mostly platform. A 2-cup basket roughly halves both |
+| Menu | 15 drinks **22,000–45,000₫** + 5 toppings 12,000–15,000₫ (live catalog, 2026-08-23). ⚠️ At ~15k COGS the cheaper half is thin-to-negative on platform orders — see `04-menu-product/README.md` |
 
 Marketing's job for the next 30 days is one thing: **get from ~5 orders/day to 11–13 walk-in/direct orders a day.** Not brand building, not a revenue target, not 10M/day.
 
@@ -90,6 +91,7 @@ Ops/stock items are in the roadmap's RELAUNCH section (`05-planning/00-test-phas
 - [ ] **Zalo broadcast to every existing customer.** These people already bought during the quiet weeks — the cheapest orders available on Day 0.
 - [ ] **Post in local Hiệp Bình / Thủ Đức Facebook groups.** Free, and exactly the right geographic size.
 - [ ] **Decide the opening offer** (§6) — blocked on COGS.
+- [ ] ⚠️ **Fix the Zalo link.** As of 2026-08-23 the sunoi.store footer carried a placeholder `zalo.me/0000000000` and `Cập nhật địa chỉ` in place of the address. Zalo is the direct channel — the one worth 2× a platform order — and this plan drives traffic to it. A dead link wastes all of it.
 - [ ] Tell friends and family plainly. A visibly busy shop on Day 0 advertises to everyone walking past.
 
 ---
@@ -101,6 +103,8 @@ Ops/stock items are in the roadmap's RELAUNCH section (`05-planning/00-test-phas
 **Proposed**: *Mua 1 tặng 1* on **one or two designated drinks** for the first 2–3 days. Not the whole menu.
 
 **Make it in-store only.** Three reasons: it drives physical discovery, it protects platform margin, and a walk-in cup is worth twice a platform cup anyway.
+
+**Pick the BOGO drink from the top of the price range, not the bottom.** At ~15k COGS a 25,000₫ drink contributes only ~2,500₫ on a platform and ~10,000₫ walk-in; giving one away free is a much bigger proportional hit than on a 39–45,000₫ drink. Trà Sữa Trân Châu Đường Đen (39k), Trà Đào Mật Ong (39k) and the Matcha Lattes (40–45k) are the sane candidates.
 
 > ⚠️ **Still blocked on COGS.** At ~15,000đ/cup a BOGO gives away a full cup of contribution; on a platform order at a 35k list price it's underwater. At ~9,000đ it's comfortable. **Both figures are on record from the same August session** — confirm the real one before committing. This is a 2-day deadline.
 
