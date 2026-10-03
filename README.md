@@ -15,6 +15,7 @@ The original home-kitchen phase was a **smoke test**; SUNOI has now taken the ne
 - **Storefront**: `RPPH+687, Hiệp Bình, Thủ Đức, Ho Chi Minh City` — Maps: https://maps.app.goo.gl/Ku8Xo88MRpvjrCAE7. Previously **ZEN CAFE** (SUNOI took over an existing café location — the prior tenant's history at this address is worth understanding; see open questions in the roadmap)
 - **Previous address (superseded)**: home kitchen at 28 Đường 10, KDC Sông Đà, Hiệp Bình — kept for history, no longer the operating base
 - **Channels**: walk-in at the storefront + delivery (GrabFood, ShopeeFood) + direct orders (Zalo, sunoi.store)
+- **Facebook community**: James's group **Hộ Kinh Doanh Thủ Đức** — https://www.facebook.com/groups/1967249897283163
 - **Catchment**: ~2–3km around the store
 - **Fixed costs**: rent 6,000,000đ/month for 3 months then 7,000,000đ/month (**2-year contract**, 165M committed) + utilities assumed 2,000,000đ/month = **8,000,000đ/month, ~267,000đ/day** to clear. See `03-accounting-tracking/06-breakeven-storefront.md`
 - **Break-even**: roughly **11–13 walk-in/direct orders a day** — but **22–28 if they're mostly platform orders**, since a platform cup is worth about half a walk-in cup. A 2-cup basket halves both figures
@@ -54,6 +55,7 @@ The original home-kitchen phase was a **smoke test**; SUNOI has now taken the ne
 05-planning/         README.md + 00-test-phase-roadmap.md + 01-open-items.md + history/
 tools/tiktok/        scripts behind the TikTok system (clip prep, optional API upload)
 .claude/commands/    slash commands — `/tiktok-post` generates a post spec
+.cursor/skills/      project skills — `social-building` runs the Hộ Kinh Doanh Thủ Đức Facebook-group workflow
 ```
 
 ### Routing table — go straight to the file that answers your question
@@ -68,6 +70,7 @@ tools/tiktok/        scripts behind the TikTok system (clip prep, optional API u
 | What do actual sales look like? | `03-accounting-tracking/01-order-log.csv` |
 | How does an order get made and handed over? | `02-operations/00-order-to-delivery-sop.md` |
 | What do we sell? | `04-menu-product/README.md` (⚠️ still empty) |
+| How should the Hộ Kinh Doanh Thủ Đức Facebook group be built and managed? | `.cursor/skills/social-building/SKILL.md` · [open group](https://www.facebook.com/groups/1967249897283163) |
 | What changed recently, and why? | `00-updates/INDEX.md` |
 | Where did the old version of X go? | `<domain>/history/` |
 
