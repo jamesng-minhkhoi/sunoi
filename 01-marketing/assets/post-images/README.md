@@ -12,6 +12,9 @@ AI-generated stand-ins — for all Facebook group posts.
 | `04-cart-night.jpg` | SUNOI cart at night, menu boards visible | V3, posts mentioning the menu |
 | `05-storefront-day.jpg` | Daytime storefront, orange awning (locals recognize it) | V6 resident groups |
 | `06-cup-logo.jpg` | Close-up of cup with SUNOI TEA • COFFEE logo | "Thử menu miễn phí" tasting angle, V4/V6 |
+| `07-directions-graphic.jpg` | Designed graphic: "Tìm đường đến Sunoi" with map + address (421/6/2 Kha Vạn Cân) | Helping partners/customers find the shop — great comment reply or follow-up post |
+| `08-menu-boards.jpg` | Outdoor menu boards: Signature + Cà phê/Matcha menus with prices | Posts mentioning the menu, price transparency |
+| `09-seating-plants.jpg` | Lush plant corner with cushioned benches | Atmosphere / "ghé chơi" vibe |
 
 Rules for the posting workflow:
 - One image per post. Vary the image when re-posting to the same group.

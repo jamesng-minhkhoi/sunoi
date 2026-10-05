@@ -26,7 +26,7 @@ Partner/affiliate program for SUNOI: recruit the people who already collect grou
 
 🍹 [TÌM ĐỐI TÁC] Quán nước mới ở Hiệp Bình cần bạn đồng hành!
 
-Chào mọi người, mình là James — chủ quán **SUNOI**, quán nước nhỏ mới mở ở Hiệp Bình, Thủ Đức (mặt bằng cũ của ZEN CAFE).
+Chào mọi người, mình là James — **SUNOI**, quán nước nhỏ mới mở ở Hiệp Bình, Thủ Đức (mặt bằng cũ của ZEN CAFE).
 
 Mình đang tìm các bạn làm **HR / admin / văn phòng** quanh khu vực — những người hay order nước cho team, cho công ty — hợp tác lâu dài:
 
